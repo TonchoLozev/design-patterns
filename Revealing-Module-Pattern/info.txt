@@ -1,0 +1,2 @@
+A variation of the module pattern is called the Revealing Module Pattern.
+The purpose is to maintain encapsulation and reveal certain variables and methods returned in an object literal.
