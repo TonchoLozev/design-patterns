@@ -1,0 +1,2 @@
+Similar to Module pattern, the Prototype pattern also has a revealing variation.
+The Revealing Prototype Pattern provides encapsulation with public and private members since it returns an object literal.
