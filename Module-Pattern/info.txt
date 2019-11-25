@@ -3,4 +3,5 @@ This provides loose coupling to support well-structured code.
 For those that are familiar with object-oriented languages, modules are JavaScript "classes".
 One of the many advantages of classes is encapsulation - protecting states and behaviors from being accessed from other classes.
 The module pattern allows for public and private (plus the lesser-know protected and privileged) access levels.
-Modules should be Immediately-Invoked-Function-Expressions (IIFE) to allow for private scopes - that is, a closure that protect variables and methods (however, it will return an object instead of a function).
+Modules should be Immediately-Invoked-Function-Expressions (IIFE) to allow for private scopes - that is,
+a closure that protect variables and methods (however, it will return an object instead of a function).

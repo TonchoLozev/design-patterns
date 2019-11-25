@@ -1,0 +1,12 @@
+A Singleton only allows for a single instantiation, but many instances of the same object.
+The Singleton restricts clients from creating multiple objects, after the first object created, it will return instances of itself.
+
+///
+
+In case you’re unfamiliar with the singleton pattern, it is, at its core, a design pattern that restricts the instantiation of a class to one object.
+Usually, the goal is to manage global application state.
+Some examples I’ve seen or written myself include using a singleton as the source of config settings for a web app,
+on the client side for anything initiated with an API key (you usually don’t want to risk sending multiple analytics tracking calls, for example),
+and to store data in memory in a client-side web application (e.g. stores in Flux).
+
+A singleton should be immutable by the consuming code, and there should be no danger of instantiating more than one of them.
